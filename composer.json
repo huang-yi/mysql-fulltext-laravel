@@ -1,0 +1,26 @@
+{
+    "name": "huang-yi/mysql-fulltext-laravel",
+    "description": "Let Laravel elegantly create MySQL fulltext index.",
+    "keywords": ["mysql", "fulltext", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Huang Yi",
+            "email": "coodeer@163.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.3.*",
+        "illuminate/database": "5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "HuangYi\\MySqlFulltext\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HuangYi\\MySqlFulltext\\Tests\\": "tests"
+        }
+    }
+}
