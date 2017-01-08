@@ -2,7 +2,7 @@
 
 MySQL很早以前就已经支持fulltext索引了，但是Laravel的Schema并没有为此提供便捷的创建方法，该拓展包就是为了解决这一痛点的：让Laravel的数据迁移优雅地创建MySQL的fulltext索引。
 
-### 版本
+## 版本
 
 由于目前只在Laravel5.3环境下测试过，所以暂时不支持其他版本，后续会更新。
 
@@ -10,7 +10,7 @@ MySQL很早以前就已经支持fulltext索引了，但是Laravel的Schema并没
 :---------|:--------|:--------
  1.0.x    | 5.3.*   | >=5.6.4 
  
- ### 安装
+ ## 安装
  
  方法一，直接使用`composer`安装：
  
@@ -34,7 +34,7 @@ MySQL很早以前就已经支持fulltext索引了，但是Laravel的Schema并没
 $ composer update
 ```
 
-### 使用
+## 使用
 
 用`php artisan make:migration`命令生成迁移文件后，需要替换原有的Facade与Blueprint类。可参考以下代码：
 
